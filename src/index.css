@@ -1,0 +1,192 @@
+
+@media only screen and (max-width : 970px) and (max-height: 50px) {
+  .parallax-container2 .section {
+    position: absolute;
+    justify-content: center;
+    top: 40%;
+  }
+  #index-banner2 .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 970px) and (max-height: 250px) {
+  .parallax-container3 .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner3 .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 970px) and (max-height: 250px) {
+  .parallax-container4 .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner4 .section {
+    top: 10%;
+  }
+}
+
+.parallax-container2 {
+  min-height: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  /* line-height: 0; */
+  height: auto;
+  justify-content: center;
+  background-color: grey;
+  color: black;
+}
+
+.parallax-container3 {
+  min-height: 250px;
+  margin-right: 40px;
+  margin-left: 40px;
+  /* line-height: 0; */
+  height: auto;
+  justify-content: center;
+  background-color: grey;
+  color: black;
+}
+
+.parallax-container4 {
+  min-height: 250px;
+  height: auto;
+  justify-content: center;
+  background-color: grey;
+  color: black;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+.material-icons{
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card{
+  width: 200px;
+  display: inline-block;
+}
+.card .card-image .card-title{
+  color: black;
+  font-weight: 100
+}
+.collection .collection-item{
+  display: flex;
+}
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.collection .collection-item img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+
+/* -------------------- */
+
+.cardp-product{
+  width: 200px;
+  display: inline-block;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper .card{
+    display: inline-block;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+.product-card-editor {
+  width: 198px;
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  word-break: break-word;
+  display: flex;
+  flex-flow: column;
+  min-height: 351px;
+}
+
+.editor-card {
+  display: flex;
+  flex-flow: row;
+  margin: 0 0 -30px 20px;
+  z-index: 0;
+}
+
+.editor-image img {
+  position: relative;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.container-card-article{
+  width: 300px;
+}
+
+.card-article {
+  display: flex;
+  flex-flow: column;
+  margin-right: 10px;
+}
+
+/*  */
+.nav-search {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 1px 0 rgba(0,0,0,0);
+  background-color: white;
+  border: 1;
+}
+.nav-search2 {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 3px 1px -2px rgba(0,0,0,0), 0 1px 1px 0 rgba(0,0,0,0);
+  background-color: white;
+}
+
+/* menu item */
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+.menu-item.active {
+  border: 1px green solid;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
