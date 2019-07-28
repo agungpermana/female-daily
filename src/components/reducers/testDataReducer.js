@@ -15,9 +15,9 @@ const initState = {
     total: 0
 
 }
-const cartReducer= (state = initState,action)=>{
+const testDataReducer= (state = initState,action)=>{
     
     return state;
 
 }
-export default cartReducer;
+export default testDataReducer;

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import cartReducer from './components/reducers/cartReducer';
+import testDataReducer from './components/reducers/testDataReducer';
 import reducer from './components/reducers/dataReducer';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';

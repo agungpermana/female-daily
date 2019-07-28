@@ -53,7 +53,7 @@
 }
 
 .parallax-container4 {
-  min-height: 250px;
+  min-height: 450px;
   height: auto;
   justify-content: center;
   background-color: grey;
@@ -77,6 +77,7 @@
   color: black;
   font-weight: 100
 }
+
 .collection .collection-item{
   display: flex;
 }
@@ -150,6 +151,30 @@
   border-radius: 50%;
 }
 
+.review-card {
+  display: flex;
+  flex-flow: row;
+  margin: -30px 100px -150px 130px;
+  z-index: 0;
+}
+
+.review-card-user {
+  display: flex;
+  flex-flow: row;
+  margin: 45px 100px -150px -48px;
+  z-index: 0;
+}
+
+.review-image img {
+  position: relative;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
 .container-card-article{
   width: 300px;
 }
@@ -189,4 +214,65 @@
 .scroll-menu-arrow {
   padding: 20px;
   cursor: pointer;
+}
+
+/* latest review */
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+.product {
+  height:60px;
+  width:300px;
+  background:white;
+  position:relative;
+}  */
+
+.card-latest {
+  width: 370px;
+  height: 270px;
+  padding: 10px;
+  border: 1px;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.hyphenate {
+  font-size: 12.5px;
+  /* Careful, this breaks the word wherever it is without a hyphen */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* Adds a hyphen where the word breaks */
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.containerwrap {
+  background: #fff;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto auto 25px;
+  padding: 25px;
+}
+
+.containerbanner {
+  width: 300px;
+  height: 100px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.containerbanner2 {
+  width: 300px;
+  height: 100px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.checked {
+  color:red;
 }

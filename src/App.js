@@ -42,6 +42,7 @@ class App extends Component {
             <div className="App">
               <div style={{ width: "100%", zIndex:"2", position: this.state.scrollingLock ? "fixed" : "relative"}}>
                 <Search />
+                {/* <Navbar/> */}
               </div>
               {/* <div> */}
                 {/* <Navbar/> */}

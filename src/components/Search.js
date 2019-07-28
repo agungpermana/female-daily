@@ -1,6 +1,11 @@
 import React from 'react';
-
+import $ from 'jquery'; 
 class Search extends React.Component {
+    // componentDidMount() {
+    //     $(document).ready(function(){
+    //         $('.sidenav').sidenav();
+    //     });
+    // }
     render(){
         return (
             <div>
@@ -18,20 +23,30 @@ class Search extends React.Component {
                 </nav>
                 <nav className="nav-search2">  
                     <div className="nav-wrapper">
-                    <div style={{justifyContent:"center", display:"flex", backgroundColor:"white"}}>
-                        <ul class="right hide-on-med-and-down">
-                            <li style={{color:"black", marginRight:"15px"}}>SKIN CARE</li>
-                            <li style={{color:"black", marginRight:"15px"}}>MAKE UP</li>
-                            <li style={{color:"black", marginRight:"15px"}}>BODY</li>
-                            <li style={{color:"black", marginRight:"15px"}}>HAIR</li>
-                            <li style={{color:"black", marginRight:"15px"}}>FRAGNANCE</li>
-                            <li style={{color:"black", marginRight:"15px"}}>NAILS</li>
-                            <li style={{color:"black", marginRight:"15px"}}>TOOLS</li>
-                            <li style={{color:"black", marginRight:"15px"}}>BRANDS</li>
-                        </ul>
-                    </div>
+                        <div style={{justifyContent:"center", display:"flex", backgroundColor:"white"}}>
+                            <ul class="right hide-on-med-and-down">
+                                <li style={{color:"black", marginRight:"15px"}}>SKIN CARE</li>
+                                <li style={{color:"black", marginRight:"15px"}}>MAKE UP</li>
+                                <li style={{color:"black", marginRight:"15px"}}>BODY</li>
+                                <li style={{color:"black", marginRight:"15px"}}>HAIR</li>
+                                <li style={{color:"black", marginRight:"15px"}}>FRAGNANCE</li>
+                                <li style={{color:"black", marginRight:"15px"}}>NAILS</li>
+                                <li style={{color:"black", marginRight:"15px"}}>TOOLS</li>
+                                <li style={{color:"black", marginRight:"15px"}}>BRANDS</li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
+                <ul class="sidenav" id="mobile-demo">
+                    <li href="#">SKIN CARE</li>
+                    <li href="#">MAKE UP</li>
+                    <li href="#">BODY</li>
+                    <li href="#">HAIR</li>
+                    <li href="#">FRAGNANCE</li>
+                    <li href="#">NAILS</li>
+                    <li href="#">TOOLS</li>
+                    <li href="#">BRANDS</li>
+                </ul>
             </div>
         )
     }
