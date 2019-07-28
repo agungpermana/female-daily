@@ -297,15 +297,15 @@ class Home extends Component {
                         </div> */}
                         <div className = "container">
                             <div>
-                                <h5>Top Brands</h5>
-                                <h5 style={{color:'grey'}}>We all know and love</h5>
+                                <h5>Trending This Week</h5>
+                                <h5 style={{color:'grey'}}>See our weekly most reviewed products</h5>
                             </div>
                         </div>
                         <ScrollMenu data={itemListProduct} selected={selected} />
                         <div className = "container">
                             <div>
-                                <h5>Popular Groups</h5>
-                                <h5 style={{color:'grey'}}>Where the beauty TALK are</h5>
+                                <h5>Top Brands</h5>
+                                <h5 style={{color:'grey'}}>We all know and love</h5>
                             </div>
                             <div class="row">
                                 <div class="col s12 m3">
