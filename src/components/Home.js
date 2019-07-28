@@ -297,11 +297,53 @@ class Home extends Component {
                         </div> */}
                         <div className = "container">
                             <div>
-                                <h5>Trending This Week</h5>
-                                <h5 style={{color:'grey'}}>See our weekly most reviewed products</h5>
+                                <h5>Top Brands</h5>
+                                <h5 style={{color:'grey'}}>We all know and love</h5>
                             </div>
                         </div>
                         <ScrollMenu data={itemListProduct} selected={selected} />
+                        <div className = "container">
+                            <div>
+                                <h5>Popular Groups</h5>
+                                <h5 style={{color:'grey'}}>Where the beauty TALK are</h5>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 m3">
+                                    <div class="card blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <span class="card-title">Image</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m3">
+                                    <div class="card blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <span class="card-title">Image</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m3">
+                                    <div class="card blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <span class="card-title">Image</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m3">
+                                    <div class="card blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <span class="card-title">Image</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style={{padding:"50px"}}>
+                            <p style={{fontSize:"18px", fontWeight:"bold", }}>Female Daily - Find everything you want to know about beauty on Female Daily</p>
+                            <p style={{color:'grey'}}>Product Reviews, Tips & Tricks, Expert and Consumer Opinions, Beauty Tutorials, Discussions, Beauty Workshops, anything! We are here to be your friendly solution to all things beauty, inside and out!</p>
+                        </div>
+                        
                     </div>
                 )
         }
